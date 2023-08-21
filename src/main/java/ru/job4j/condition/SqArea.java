@@ -8,6 +8,6 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        System.out.println(" p = 4, k = 1, s = 1, real = " + square(4, 1));
+        System.out.println(" p = 4, k = 1, s = 1, real = " + square(2, 3));
     }
 }

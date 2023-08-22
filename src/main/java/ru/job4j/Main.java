@@ -8,5 +8,6 @@ public class Main {
         size = 100;
         size -= 5;
         System.out.println(size);
+
     }
 }

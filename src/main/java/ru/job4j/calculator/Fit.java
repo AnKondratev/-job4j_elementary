@@ -11,11 +11,12 @@ public class Fit {
     }
 
     public static void main(String[] args) {
-        short height = 175;
-        double man = Fit.manWeight(height);
-        double woman = Fit.womanWeight(height);
-        System.out.println("Man 187 is " + man);
-        System.out.println("Woman 187 is " + woman);
-    }
+        short heightWoman = 175;
+        short heightMan = 160;
+        double man = Fit.manWeight(heightMan);
+        double woman = Fit.womanWeight(heightWoman);
+        System.out.println("Man 160 is " + man);
+        System.out.println("Woman 175 is " + woman);
 
+    }
 }

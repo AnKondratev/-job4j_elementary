@@ -10,9 +10,11 @@ public class ArrayDefinition {
         names[2] = "Alex Goodman";
         names[3] = "Tony Stark";
         float[] prices = new float[40];
+        String newline = System.lineSeparator();
         System.out.println("Размер массива ages равен: " + ages.length);
         System.out.println("Размер массива names равен: " + names.length);
         System.out.println("Размер массива prices равен: " + prices.length);
-        System.out.println("\n" + "Вывод names: " + "\n" + names[0] + "\n" + names[1] + "\n" + names[2] + "\n" + names[3]);
+        System.out.println(newline + "Вывод names: " + newline + names[0] + newline + names[1] + newline + names[2] + newline + names[3]);
+
     }
 }

@@ -2,25 +2,24 @@ package ru.job4j;
 
 public class Checkstyle {
     private int sizeOfEmpty = 10;
-    public String surname;
-    public static final String NEW_VALUE = "";
+    private String name;
+    private String surname;
+    private static final String NEW_VALUE = "";
 
-    void echo() {
+    public Checkstyle() {
     }
 
-    void media(Object obj) {
+    public void echo() {
+    }
+
+    public void media(Object obj) {
         if (obj != null) {
             System.out.println(obj);
         }
     }
 
-    void method(int a, int b, int c) {
+    public void method(int a, int b, int c) {
 
-    }
-
-    String name;
-
-    Checkstyle() {
     }
 
 }

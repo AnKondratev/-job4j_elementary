@@ -3,12 +3,10 @@ package ru.job4j.condition;
 public class Max {
 
     public static int max(int first, int second) {
-
         return first > second ? first : second;
     }
 
     public static int max(int first, int second, int third) {
-
         return max(first, max(second, third));
     }
 
@@ -20,7 +18,5 @@ public class Max {
         System.out.println(max(5, 9));
         System.out.println(max(5, 9, 12));
         System.out.println(max(5, 9, 12, 15));
-
     }
-
 }
